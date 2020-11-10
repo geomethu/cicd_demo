@@ -4,7 +4,7 @@ jobs:
   build:
     docker:
       - image: circleci/golang:1.15
-    working_directory: /github.com/geomethu/cicd_demo
+    working_directory: /go/src/github.com/geomethu/cicd_demo
     steps:
       - checkout
       - run: go test -v ./...
