@@ -9,5 +9,5 @@ import (
 
 func main(){
 	sum:= addition.Addition(40.5, 3.5)
-	fmt.Println(sum)
+	fmt.Printf("result %f",sum)
 }
